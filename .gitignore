@@ -1,6 +1,9 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Log files
+*.log
+
 # Compiled Object files
 *.slo
 *.lo
@@ -72,3 +75,23 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+
+# Other things that we found on the forums
+
+*.user
+.vs
+Binaries
+*/Intermediate/AssetRegistryCache
+*/Intermediate/Build
+*/Intermediate/CADImportTemp
+*/Intermediate/DatasmithContentTemp
+*/Intermediate/ReimportCache
+*/Intermediate/CachedAssetRegistry.bin
+*/Saved/Autosaves
+*/Saved/Backup
+*/Saved/Config/CrashReportClient
+*/Saved/Collections
+*/Saved/Logs
+*/Saved/AutoScreenshot.png
